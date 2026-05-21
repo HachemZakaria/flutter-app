@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "424383632339",
+    "project_id": "ecole-app-ce95a",
+    "storage_bucket": "ecole-app-ce95a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424383632339:android:6a3813384bb111da82d526",
+        "android_client_info": {
+          "package_name": "com.example.ecole_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6bKQRIxh09fX8vgil9AlP-xirxm8J_a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

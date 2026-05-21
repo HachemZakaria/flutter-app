@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ecole-app-ce95a",
+          "appId": "1:424383632339:android:6a3813384bb111da82d526",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ecole-app-ce95a",
+          "configurations": {
+            "android": "1:424383632339:android:6a3813384bb111da82d526",
+            "ios": "1:424383632339:ios:c40c23816a12b19e82d526",
+            "macos": "1:424383632339:ios:c40c23816a12b19e82d526",
+            "web": "1:424383632339:web:644434118579b1aa82d526",
+            "windows": "1:424383632339:web:829988c3962b14c282d526"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
